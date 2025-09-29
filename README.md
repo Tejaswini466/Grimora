@@ -1,0 +1,1 @@
+A small web project using HTML, CSS, and JavaScript. 

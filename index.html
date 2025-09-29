@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GRIMORA</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">🪄 Welcome to GRIMORA</h1>
+    <p class="intro">Greetings, chosen one... Ready to unveil your magical essence? Your Grimoire awaits.</p>
+
+    <form id="grimoireForm">
+      <label for="birthday">Enter your Birthday:</label>
+      <input type="date" id="birthday" required />
+
+      <label for="gender">Select your Gender:</label>
+      <select id="gender" required>
+        <option value="">--Choose--</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        <option value="nonbinary">Non-binary</option>
+      </select>
+
+      <button type="submit">Reveal My Grimoire</button>
+    </form>
+
+    <div id="cardContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
