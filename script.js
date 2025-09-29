@@ -47,3 +47,34 @@ function getZodiacProfile(birthday, gender) {
     ...characterProfiles[characterName]
   };
 }
+function displayCard(profile) {
+  const cardContainer = document.getElementById("cardContainer");
+  cardContainer.innerHTML = `
+    <div class="card-content">
+      <h2 class="card-title">Your Grimoire</h2>
+      <div class="section">
+        <h3>🧝‍♂️ Black Clover Match</h3>
+        <p><strong>${profile.name}</strong></p>
+      </div>
+      <div class="section">
+        <h3>🐾 Spiritual Animal</h3>
+        <p>${profile.animal}</p>
+      </div>
+      <div class="section">
+        <h3>🧬 Personality</h3>
+        <p>${profile.personality}</p>
+      </div>
+      <div class="section">
+        <h3>💪 Strengths</h3>
+        <p>${profile.strengths}</p>
+      </div>
+      <div class="section">
+        <h3>⚡ Weaknesses</h3>
+        <p>${profile.weaknesses}</p>
+      </div>
+      <div class="tagline">
+        <em>${profile.tagline}</em>
+      </div>
+    </div>
+  `;
+}

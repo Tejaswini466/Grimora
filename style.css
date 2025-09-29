@@ -16,7 +16,7 @@ body {
   padding: 30px;
   background: rgba(0, 0, 0, 0.7);
   border-radius: 20px;
-  box-shadow: 0 0 20px #ff0057;
+  box-shadow: 0 0 20px #cc03ff;
 }
 
 .title {
@@ -44,7 +44,7 @@ input, select, button {
 }
 
 button {
-  background-color: #ff0057;
+  background-color: #ae2d2d;
   color: white;
   cursor: pointer;
   transition: background 0.3s ease;
