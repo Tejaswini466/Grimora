@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('Black Clover.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 700px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ff0057;
+}
+
+.title {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+
+.intro {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+}
+
+button {
+  background-color: #ff0057;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3366;
+}
+
+#cardContainer {
+  margin-top: 40px;
+}
+
+.card-content {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ffcc00;
+  border-radius: 15px;
+  padding: 20px;
+  animation: glow 2s infinite alternate;
+  text-align: left;
+}
+
+.card-title {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 15px;
+}
+
+.section h3 {
+  color: #ffcc00;
+  margin-bottom: 5px;
+}
+
+.tagline {
+  font-style: italic;
+  text-align: center;
+  margin-top: 20px;
+  color: #ff0057;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #ffcc00;
+  }
+  to {
+    box-shadow: 0 0 20px #ffcc00, 0 0 30px #ffcc00;
+  }
+}
