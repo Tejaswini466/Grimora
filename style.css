@@ -63,6 +63,9 @@ button:hover {
   border: 2px solid #ffcc00;
   border-radius: 15px;
   padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
   animation: glow 2s infinite alternate;
   text-align: left;
 }
@@ -96,5 +99,14 @@ button:hover {
   }
   to {
     box-shadow: 0 0 20px #ffcc00, 0 0 30px #ffcc00;
+  }
+}
+@media (max-width: 768px) {
+  .card-content {
+    font-size: 0.9em;
+    padding: 1rem;
+  }
+  .section h3 {
+    font-size: 1rem;
   }
 }
