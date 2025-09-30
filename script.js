@@ -13,8 +13,18 @@ function getZodiacProfile(birthday, gender) {
   const day = birthday.getDate();
 
   const zodiacMap = [
-    { sign: "Capricorn", start: [12, 22], end: [1, 19], characters: ["Secre Swallowtail", "Nozel Silva"] },
-    { sign: "Aquarius", start: [1, 20], end: [2, 18], characters: ["Julius Novachrono", "Yuno"] }
+    { sign: "Capricorn", start: [12, 22], end: [1, 19], characters: ["Secre Swallowtail", "Rill Boismortier"] },
+    { sign: "Aquarius", start: [1, 20], end: [2, 18], characters: ["Julius Novachrono", "Grey"] },
+    { sign: "Pisces", start: [2, 19], end: [3, 20], characters: ["Nacht Faust", "Dorothy Unsworth"] },
+    { sign: "Aries", start: [3, 21], end: [4, 19], characters: ["Mereoleona Vermillion", "Jack the Ripper"] },
+    { sign: "Taurus", start: [4, 20], end: [5, 20], characters: ["Zora Ideale", "Sol Marron"] },
+    { sign: "Gemini", start: [5, 21], end: [6, 20], characters: ["Charmy Pappitson", "Gordon Agrippa"] },
+    { sign: "Cancer", start: [6, 21], end: [7, 22], characters: ["Mimosa Vermillion", "Klaus Lunettes"] },
+    { sign: "Leo", start: [7, 23], end: [8, 22], characters: ["Asta", "Leo Vermillion"] },
+    { sign: "Virgo", start: [8, 23], end: [9, 22], characters: ["Charlotte Roselei", "William Vangeance"] },
+    { sign: "Libra", start: [9, 23], end: [10, 22], characters: ["Fuegoleon Vermillion", "Finral Roulacase"] },
+    { sign: "Scorpio", start: [10, 23], end: [11, 21], characters: ["Yami Sukehiro", "Henry Legolant"] },
+    { sign: "Sagittarius", start: [11, 22], end: [12, 21], characters: ["Luck Voltia", "Langris Vaude"] },
   ];
   
   function isBetween(month, day, start, end) {
