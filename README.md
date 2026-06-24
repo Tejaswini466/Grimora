@@ -11,21 +11,21 @@ GRIMORA is a web-based personality portal that blends:
 🎨 Expressive design and magical storytelling  
 Whether you're a fiery Leo like Mereoleona or a dreamy Pisces like Kahono, GRIMORA reveals your magical match with flair.
   
-🚀 Live Demo Try it now: https://grimora.netlify.app/
+Live Demo Try it now: https://grimora.netlify.app/
   
-🧰 Project Structure grimora/   
+Project Structure grimora/   
 ├── index.html # Main entry point   
 ├── style.css # Styling and responsive design   
 └── script.js # Zodiac logic and character reveal engine
 
 Local Setup & Usage Want to run GRIMORA on your own system? Here’s how:   
-📦 Clone the Repository
+Clone the Repository
 
 ```bash
 git clone https://github.com/Tejaswini466/Grimora.git
 cd grimora
 ```
 
-🛡️ Disclaimer  
+Disclaimer  
 GRIMORA is a fan-made project for entertainment and community engagement.
 All character rights belong to their respective creators.
